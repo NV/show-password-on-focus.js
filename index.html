@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Show Password on Focus</title>
+  <style>
+  html {
+    text-align: center;
+    font: 18px sans-serif;
+    background: #EEE;
+    color: #333;
+  }
+  h1 {
+    font: 2em 'Gill Sans', 'Trebuchet MS', serif;
+    color: #fff;
+    text-shadow: #CCC 0 -1px 0;
+  }
+  h2 {
+    font: italic 150% serif;
+    color: #666;
+  }
+  form {
+    display: inline-block;
+    margin-top: 2em;
+    text-align: left;
+  }
+  label {
+    display: inline-block;
+    width: 5em;
+    padding-right: .2em;
+    margin-left: -5.5em;
+    text-align: right;
+  }
+  input {
+    font: 18px sans-serif;
+  }
+  div {
+    margin-bottom: 1em;
+  }
+  .attention {
+    color: #000;
+    font-family: 'Handwriting - Dakota', Mistral, Chalkboard, Casual, 'Lucida Handwriting', 'Comic Sans MS', fantasy;
+  }
+  </style>
+</head>
+<body>
+
+<h1>Show Password on Focus</h1>
+
+<form name="second" action=".." method="POST">
+  <div>
+    <label>Name</label>
+    <input value="tester" name="username" readonly><br>
+  </div>
+  <div>
+    <label>Password</label>
+    <input type="password" value="123123" name="second_pass"> <span class="attention">&larr; Type here</span><br>
+  </div>
+  <div>
+    <input type="submit" value="Submit">
+  </div>
+</form>
+
+<script type="text/javascript" src="show_password_onfocus.user.js"></script>
+
+</body></html>
