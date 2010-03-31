@@ -18,7 +18,8 @@ function make_manifest(userjs) {
     content_scripts: [
       {
         matches: ["http://*/*", "https://*/*"],
-        js: [USERJS]
+        js: [USERJS],
+        all_frames: true
       }
     ],
     icons: {
