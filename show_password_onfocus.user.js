@@ -4,6 +4,7 @@
 // @include       *
 // @description   Show password when focus on password field
 // @version       1.0
+// @icon          http://nv.github.com/show-password-on-focus.js/icon_48.png
 // ==/UserScript==
 
 (function() {
