@@ -12,8 +12,10 @@ Tested on Firefox Greasemonkey, Google Chrome, Opera, and Safari GreaseKit.
 
 
 ## [Google Chrome extension](https://chrome.google.com/extensions/detail/ogjaejebjmifpkiaafdnnpkkjnmopmhn)
+## [Safari extension](http://userscripts.ru/js/show-password-on-focus/Show_Password_on_Focus.safariextz)
 
 Like UserJS, but with autoupdate and nice icon.
+
 
 ## Quote from Jakob Nielsen
 
